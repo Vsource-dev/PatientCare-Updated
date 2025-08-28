@@ -9877,3 +9877,927 @@
 [2025-08-28 17:47:18] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
 [2025-08-28 17:47:18] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
 [2025-08-28 17:47:18] local.DEBUG: Grand Total: {"grandTotal":5570.0,"balance":4570.0} 
+[2025-08-28 18:25:33] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 18:25:33] local.DEBUG: Billing Total: {"billTotal":"1779.00"} 
+[2025-08-28 18:25:33] local.DEBUG: Pharmacy Total: {"rxTotal":"1791.00"} 
+[2025-08-28 18:25:33] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 18:25:33] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 18:25:33] local.DEBUG: Grand Total: {"grandTotal":5570.0,"balance":4570.0} 
+[2025-08-28 19:02:53] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:02:53] local.DEBUG: Billing Total: {"billTotal":"1779.00"} 
+[2025-08-28 19:02:53] local.DEBUG: Pharmacy Total: {"rxTotal":"1791.00"} 
+[2025-08-28 19:02:53] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 19:02:53] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 19:02:53] local.DEBUG: Grand Total: {"grandTotal":5570.0,"balance":4570.0} 
+[2025-08-28 19:02:56] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:02:56] local.DEBUG: Billing Total: {"billTotal":"1779.00"} 
+[2025-08-28 19:02:56] local.DEBUG: Pharmacy Total: {"rxTotal":"1791.00"} 
+[2025-08-28 19:02:56] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 19:02:56] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 19:02:56] local.DEBUG: Grand Total: {"grandTotal":5570.0,"balance":4570.0} 
+[2025-08-28 19:05:17] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:05:17] local.DEBUG: Billing Total: {"billTotal":"1779.00"} 
+[2025-08-28 19:05:17] local.DEBUG: Pharmacy Total: {"rxTotal":"1791.00"} 
+[2025-08-28 19:05:17] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 19:05:17] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 19:05:17] local.DEBUG: Grand Total: {"grandTotal":5570.0,"balance":5570.0} 
+[2025-08-28 19:05:28] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:05:28] local.DEBUG: Billing Total: {"billTotal":"1779.00"} 
+[2025-08-28 19:05:28] local.DEBUG: Pharmacy Total: {"rxTotal":"1791.00"} 
+[2025-08-28 19:05:28] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 19:05:28] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 19:05:28] local.DEBUG: Grand Total: {"grandTotal":5570.0,"balance":5570.0} 
+[2025-08-28 19:09:14] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:09:14] local.DEBUG: Billing Total: {"billTotal":"1779.00"} 
+[2025-08-28 19:09:14] local.DEBUG: Pharmacy Total: {"rxTotal":"1804.00"} 
+[2025-08-28 19:09:14] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 19:09:14] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 19:09:14] local.DEBUG: Grand Total: {"grandTotal":5583.0,"balance":5583.0} 
+[2025-08-28 19:09:24] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:09:24] local.DEBUG: Billing Total: {"billTotal":"1779.00"} 
+[2025-08-28 19:09:24] local.DEBUG: Pharmacy Total: {"rxTotal":"1804.00"} 
+[2025-08-28 19:09:24] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 19:09:24] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 19:09:24] local.DEBUG: Grand Total: {"grandTotal":5583.0,"balance":5583.0} 
+[2025-08-28 19:44:55] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:44:55] local.DEBUG: Billing Total: {"billTotal":"1779.00"} 
+[2025-08-28 19:44:55] local.DEBUG: Pharmacy Total: {"rxTotal":"1804.00"} 
+[2025-08-28 19:44:55] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 19:44:55] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 19:44:55] local.DEBUG: Grand Total: {"grandTotal":5583.0,"balance":5583.0} 
+[2025-08-28 19:45:33] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:45:33] local.DEBUG: Billing Total: {"billTotal":"1779.00"} 
+[2025-08-28 19:45:33] local.DEBUG: Pharmacy Total: {"rxTotal":"1804.00"} 
+[2025-08-28 19:45:33] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 19:45:33] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 19:45:33] local.DEBUG: Grand Total: {"grandTotal":5583.0,"balance":5583.0} 
+[2025-08-28 19:48:11] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:48:11] local.DEBUG: Billing Total: {"billTotal":"1779.00"} 
+[2025-08-28 19:48:11] local.DEBUG: Pharmacy Total: {"rxTotal":"1804.00"} 
+[2025-08-28 19:48:11] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 19:48:11] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 19:48:11] local.DEBUG: Grand Total: {"grandTotal":5583.0,"balance":5583.0} 
+[2025-08-28 19:51:02] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:51:02] local.ERROR: Undefined variable $billTotal {"userId":54,"exception":"[object] (ErrorException(code: 0): Undefined variable $billTotal at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Controllers\\PatientBillingController.php:67)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(272): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError()
+#1 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Controllers\\PatientBillingController.php(67): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PatientBillingController->index()
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Middleware\\RoleMiddleware.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RoleMiddleware->handle()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#30 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#31 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#32 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#34 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#35 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#36 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#37 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#38 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#40 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#41 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#42 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#43 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#44 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#45 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#46 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#47 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#48 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#49 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#50 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#51 {main}
+"} 
+[2025-08-28 19:51:20] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:51:20] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pci.total' in 'field list' (SQL: select sum(`pci`.`total`) as aggregate from `pharmacy_charge_items` as `csst larwence mirandapci` inner join `pharmacy_charges` as `pc` on `pc`.`id` = `pci`.`charge_id` where `pc`.`patient_id` = 33 and `pci`.`status` = dispensed) {"userId":54,"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pci.total' in 'field list' (SQL: select sum(`pci`.`total`) as aggregate from `pharmacy_charge_items` as `csst larwence mirandapci` inner join `pharmacy_charges` as `pc` on `pc`.`id` = `pci`.`charge_id` where `pc`.`patient_id` = 33 and `pci`.`status` = dispensed) at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:760)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback()
+#1 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(405): Illuminate\\Database\\Connection->run()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2705): Illuminate\\Database\\Connection->select()
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2694): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3230): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2693): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3157): Illuminate\\Database\\Query\\Builder->get()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3118): Illuminate\\Database\\Query\\Builder->aggregate()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Controllers\\PatientBillingController.php(73): Illuminate\\Database\\Query\\Builder->sum()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PatientBillingController->index()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Middleware\\RoleMiddleware.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RoleMiddleware->handle()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#30 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#32 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then()
+#34 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#35 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#36 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#37 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#38 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#39 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#41 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#42 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#43 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#44 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#45 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#47 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#49 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#51 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#53 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#55 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#58 {main}
+
+[previous exception] [object] (PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pci.total' in 'field list' at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:414)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(414): PDO->prepare()
+#1 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(753): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback()
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(405): Illuminate\\Database\\Connection->run()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2705): Illuminate\\Database\\Connection->select()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2694): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3230): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2693): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3157): Illuminate\\Database\\Query\\Builder->get()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3118): Illuminate\\Database\\Query\\Builder->aggregate()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Controllers\\PatientBillingController.php(73): Illuminate\\Database\\Query\\Builder->sum()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PatientBillingController->index()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Middleware\\RoleMiddleware.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RoleMiddleware->handle()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#30 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#32 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#34 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then()
+#36 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#37 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#38 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#39 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#40 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#41 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#43 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#44 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#45 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#46 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#47 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#49 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#51 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#53 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#55 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#56 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#57 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#58 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#59 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#60 {main}
+"} 
+[2025-08-28 19:58:57] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:58:57] local.ERROR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pci.total' in 'field list' (SQL: select sum(`pci`.`total`) as aggregate from `pharmacy_charge_items` as `csst larwence mirandapci` inner join `pharmacy_charges` as `pc` on `pc`.`id` = `pci`.`charge_id` where `pc`.`patient_id` = 33 and `pci`.`status` = dispensed) {"userId":54,"exception":"[object] (Illuminate\\Database\\QueryException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pci.total' in 'field list' (SQL: select sum(`pci`.`total`) as aggregate from `pharmacy_charge_items` as `csst larwence mirandapci` inner join `pharmacy_charges` as `pc` on `pc`.`id` = `pci`.`charge_id` where `pc`.`patient_id` = 33 and `pci`.`status` = dispensed) at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:760)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback()
+#1 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(405): Illuminate\\Database\\Connection->run()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2705): Illuminate\\Database\\Connection->select()
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2694): Illuminate\\Database\\Query\\Builder->runSelect()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3230): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2693): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3157): Illuminate\\Database\\Query\\Builder->get()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3118): Illuminate\\Database\\Query\\Builder->aggregate()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Controllers\\PatientBillingController.php(73): Illuminate\\Database\\Query\\Builder->sum()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PatientBillingController->index()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Middleware\\RoleMiddleware.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RoleMiddleware->handle()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#30 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#32 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then()
+#34 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#35 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#36 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#37 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#38 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#39 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#41 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#42 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#43 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#44 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#45 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#47 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#49 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#51 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#53 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#55 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#58 {main}
+
+[previous exception] [object] (PDOException(code: 42S22): SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pci.total' in 'field list' at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php:414)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(414): PDO->prepare()
+#1 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(753): Illuminate\\Database\\Connection->Illuminate\\Database\\{closure}()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(720): Illuminate\\Database\\Connection->runQueryCallback()
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Connection.php(405): Illuminate\\Database\\Connection->run()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2705): Illuminate\\Database\\Connection->select()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2694): Illuminate\\Database\\Query\\Builder->runSelect()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3230): Illuminate\\Database\\Query\\Builder->Illuminate\\Database\\Query\\{closure}()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(2693): Illuminate\\Database\\Query\\Builder->onceWithColumns()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3157): Illuminate\\Database\\Query\\Builder->get()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Database\\Query\\Builder.php(3118): Illuminate\\Database\\Query\\Builder->aggregate()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Controllers\\PatientBillingController.php(73): Illuminate\\Database\\Query\\Builder->sum()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\PatientBillingController->index()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Middleware\\RoleMiddleware.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RoleMiddleware->handle()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#30 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#32 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#34 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then()
+#36 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#37 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#38 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#39 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#40 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#41 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#42 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#43 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#44 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#45 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#46 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#47 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#49 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#51 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#53 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#55 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#56 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#57 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#58 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#59 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#60 {main}
+"} 
+[2025-08-28 19:59:06] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 19:59:06] local.DEBUG: Billing Total: {"billTotal":"1779.00"} 
+[2025-08-28 19:59:06] local.DEBUG: Pharmacy Total: {"rxTotal":"1804.00"} 
+[2025-08-28 19:59:06] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 19:59:06] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 19:59:06] local.DEBUG: Grand Total: {"grandTotal":5583.0,"balance":5583.0} 
+[2025-08-28 20:03:40] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 20:03:40] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 20:03:40] local.DEBUG: Pharmacy Total: {"rxTotal":"1804.00"} 
+[2025-08-28 20:03:40] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 20:03:40] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 20:03:40] local.DEBUG: Grand Total: {"grandTotal":3804.0,"balance":3804.0} 
+[2025-08-28 20:04:50] local.DEBUG: [DoctorDashboard] user_id 49 doctorId 33  
+[2025-08-28 20:04:50] local.DEBUG: [DoctorDashboard] patientsQuery count before search: 3  
+[2025-08-28 20:04:50] local.DEBUG: [DoctorDashboard] paginated total 3 current page count 3  
+[2025-08-28 20:04:50] local.DEBUG: [DoctorDashboard] recentAdmissions count: 0  
+[2025-08-28 20:05:09] local.DEBUG: [OrderEntry] incoming request {"user_id":49,"patient":33,"type":"medication","payload":{"_token":"WOlH9wk1OfRvpimTzytXvFFFJQgIcNE27jQPpv8G","type":"medication","medications":[{"medication_id":"106","quantity":"1","duration":"1","duration_unit":"days","instructions":null},{"medication_id":"111","quantity":"1","duration":"1","duration_unit":"days","instructions":null}]}} 
+[2025-08-28 20:05:09] local.DEBUG: [OrderEntry] MED + PHARM OK {"bill_id":54,"rx":"RX20250828200509QHX","presc_id":null} 
+[2025-08-28 20:51:16] local.DEBUG: [DoctorDashboard] user_id 49 doctorId 33  
+[2025-08-28 20:51:16] local.DEBUG: [DoctorDashboard] patientsQuery count before search: 3  
+[2025-08-28 20:51:16] local.DEBUG: [DoctorDashboard] paginated total 3 current page count 3  
+[2025-08-28 20:51:16] local.DEBUG: [DoctorDashboard] recentAdmissions count: 0  
+[2025-08-28 20:51:24] local.DEBUG: [OrderEntry] incoming request {"user_id":49,"patient":33,"type":"medication","payload":{"_token":"e7tz9qvEyGVrNAAgamGfPmGHnwvHSHDJ1HS0cFBo","type":"medication","medications":[{"medication_id":"44","quantity":"1","duration":"1","duration_unit":"days","instructions":null}]}} 
+[2025-08-28 20:51:24] local.DEBUG: [OrderEntry] MED + PHARM OK {"bill_id":54,"rx":"RX20250828205124IZM","presc_id":null} 
+[2025-08-28 20:53:15] local.DEBUG: [DoctorDashboard] user_id 49 doctorId 33  
+[2025-08-28 20:53:15] local.DEBUG: [DoctorDashboard] patientsQuery count before search: 3  
+[2025-08-28 20:53:15] local.DEBUG: [DoctorDashboard] paginated total 3 current page count 3  
+[2025-08-28 20:53:15] local.DEBUG: [DoctorDashboard] recentAdmissions count: 0  
+[2025-08-28 20:53:24] local.DEBUG: [OrderEntry] incoming request {"user_id":49,"patient":33,"type":"medication","payload":{"_token":"E58A3xXWgyQN4DmLuvrJIjjyqExxKc1GiEawBKqt","type":"medication","medications":[{"medication_id":"108","quantity":"1","duration":"1","duration_unit":"days","instructions":null}]}} 
+[2025-08-28 20:53:24] local.DEBUG: [OrderEntry] MED + PHARM OK {"bill_id":54,"rx":"RX20250828205324C50","presc_id":null} 
+[2025-08-28 20:55:09] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 20:55:09] local.DEBUG: Billing Total: {"billTotal":"30.00"} 
+[2025-08-28 20:55:09] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 20:55:09] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 20:55:09] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 20:55:09] local.DEBUG: Grand Total: {"grandTotal":4234.0,"balance":4234.0} 
+[2025-08-28 21:42:35] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 21:42:35] local.DEBUG: Billing Total: {"billTotal":"30.00"} 
+[2025-08-28 21:42:35] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 21:42:35] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 21:42:35] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 21:42:35] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 21:59:45] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 21:59:45] local.DEBUG: Billing Total: {"billTotal":"30.00"} 
+[2025-08-28 21:59:45] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 21:59:45] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 21:59:45] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 21:59:45] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 22:09:29] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 22:09:29] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 22:09:29] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 22:09:29] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 22:09:29] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 22:09:29] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 22:15:42] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 22:15:42] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 22:15:42] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 22:15:42] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 22:15:42] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 22:15:42] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 22:15:43] local.ERROR: Unknown getter 'children' {"view":{"view":"C:\\Users\\Sam\\Documents\\testvrsite.xyz\\resources\\views\\patient\\billing.blade.php","data":[]},"userId":54,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Unknown getter 'children' at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\nesbot\\carbon\\src\\Carbon\\Traits\\Date.php:1079)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\nesbot\\carbon\\src\\Carbon\\Traits\\Date.php(822): Carbon\\Carbon->get()
+#1 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\resources\\views\\patient\\billing.blade.php(96): Carbon\\Carbon->__get()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('...')
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Middleware\\RoleMiddleware.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RoleMiddleware->handle()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#30 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#32 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then()
+#34 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#35 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#36 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#37 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#38 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#39 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#41 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#42 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#43 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#44 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#45 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#47 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#49 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#51 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#53 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#55 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#58 {main}
+
+[previous exception] [object] (Carbon\\Exceptions\\UnknownGetterException(code: 0): Unknown getter 'children' at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\nesbot\\carbon\\src\\Carbon\\Traits\\Date.php:1079)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\nesbot\\carbon\\src\\Carbon\\Traits\\Date.php(822): Carbon\\Carbon->get()
+#1 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\storage\\framework\\views\\40db6a7e3f1c1d22f9adf04b287e25fecc68b5c2.php(98): Carbon\\Carbon->__get()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('...')
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Middleware\\RoleMiddleware.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RoleMiddleware->handle()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#30 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#32 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then()
+#34 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#35 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#36 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#37 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#38 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#39 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#41 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#42 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#43 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#44 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#45 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#47 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#49 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#51 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#53 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#55 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#58 {main}
+"} 
+[2025-08-28 22:17:44] local.ERROR: Unclosed '[' on line 200 does not match '}' {"exception":"[object] (ParseError(code: 0): Unclosed '[' on line 200 does not match '}' at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Controllers\\PatientBillingController.php:205)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1091): is_a()
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1030): Illuminate\\Routing\\Route->controllerMiddleware()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(810): Illuminate\\Routing\\Route->gatherMiddleware()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(792): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#30 {main}
+"} 
+[2025-08-28 22:20:02] local.ERROR: Unclosed '[' on line 200 does not match '}' {"exception":"[object] (ParseError(code: 0): Unclosed '[' on line 200 does not match '}' at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Controllers\\PatientBillingController.php:205)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\composer\\ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1091): is_a()
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(1030): Illuminate\\Routing\\Route->controllerMiddleware()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(810): Illuminate\\Routing\\Route->gatherMiddleware()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(792): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#30 {main}
+"} 
+[2025-08-28 22:23:13] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 22:23:13] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 22:23:13] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 22:23:13] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 22:23:13] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 22:23:13] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 22:23:13] local.ERROR: Unknown getter 'children' {"view":{"view":"C:\\Users\\Sam\\Documents\\testvrsite.xyz\\resources\\views\\patient\\billing.blade.php","data":[]},"userId":54,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Unknown getter 'children' at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\nesbot\\carbon\\src\\Carbon\\Traits\\Date.php:1079)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\nesbot\\carbon\\src\\Carbon\\Traits\\Date.php(822): Carbon\\Carbon->get()
+#1 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\resources\\views\\patient\\billing.blade.php(96): Carbon\\Carbon->__get()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('...')
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Middleware\\RoleMiddleware.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RoleMiddleware->handle()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#30 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#32 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then()
+#34 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#35 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#36 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#37 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#38 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#39 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#41 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#42 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#43 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#44 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#45 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#47 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#49 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#51 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#53 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#55 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#58 {main}
+
+[previous exception] [object] (Carbon\\Exceptions\\UnknownGetterException(code: 0): Unknown getter 'children' at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\nesbot\\carbon\\src\\Carbon\\Traits\\Date.php:1079)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\nesbot\\carbon\\src\\Carbon\\Traits\\Date.php(822): Carbon\\Carbon->get()
+#1 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\storage\\framework\\views\\40db6a7e3f1c1d22f9adf04b287e25fecc68b5c2.php(98): Carbon\\Carbon->__get()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('...')
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Middleware\\RoleMiddleware.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RoleMiddleware->handle()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#30 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#32 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then()
+#34 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#35 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#36 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#37 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#38 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#39 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#41 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#42 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#43 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#44 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#45 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#47 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#49 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#51 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#53 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#55 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#58 {main}
+"} 
+[2025-08-28 22:23:23] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 22:23:23] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 22:23:23] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 22:23:23] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 22:23:23] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 22:23:23] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 22:23:23] local.ERROR: Unknown getter 'children' {"view":{"view":"C:\\Users\\Sam\\Documents\\testvrsite.xyz\\resources\\views\\patient\\billing.blade.php","data":[]},"userId":54,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): Unknown getter 'children' at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\nesbot\\carbon\\src\\Carbon\\Traits\\Date.php:1079)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\nesbot\\carbon\\src\\Carbon\\Traits\\Date.php(822): Carbon\\Carbon->get()
+#1 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\resources\\views\\patient\\billing.blade.php(84): Carbon\\Carbon->__get()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('...')
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Middleware\\RoleMiddleware.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RoleMiddleware->handle()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#30 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#32 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then()
+#34 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#35 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#36 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#37 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#38 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#39 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#41 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#42 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#43 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#44 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#45 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#47 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#49 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#51 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#53 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#55 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#58 {main}
+
+[previous exception] [object] (Carbon\\Exceptions\\UnknownGetterException(code: 0): Unknown getter 'children' at C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\nesbot\\carbon\\src\\Carbon\\Traits\\Date.php:1079)
+[stacktrace]
+#0 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\nesbot\\carbon\\src\\Carbon\\Traits\\Date.php(822): Carbon\\Carbon->get()
+#1 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\storage\\framework\\views\\40db6a7e3f1c1d22f9adf04b287e25fecc68b5c2.php(85): Carbon\\Carbon->__get()
+#2 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(109): require('...')
+#3 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(110): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#4 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire()
+#5 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath()
+#6 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get()
+#7 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#8 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#9 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#10 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent()
+#11 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct()
+#12 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse()
+#13 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse()
+#14 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#15 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\app\\Http\\Middleware\\RoleMiddleware.php(23): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\RoleMiddleware->handle()
+#17 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#19 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(44): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#21 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#23 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#25 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#27 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle()
+#28 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#30 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#31 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#32 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#33 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then()
+#34 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack()
+#35 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute()
+#36 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute()
+#37 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch()
+#38 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#39 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#40 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#41 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#42 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#43 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#44 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#45 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#46 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#47 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#48 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#49 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#50 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#51 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#52 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#53 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#54 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then()
+#55 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#56 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle()
+#57 C:\\Users\\Sam\\Documents\\testvrsite.xyz\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('...')
+#58 {main}
+"} 
+[2025-08-28 22:23:44] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 22:23:44] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 22:23:44] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 22:23:44] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 22:23:44] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 22:23:44] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 22:37:54] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 22:37:54] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 22:37:54] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 22:37:54] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 22:37:54] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 22:37:54] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 22:42:33] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 22:42:33] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 22:42:33] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 22:42:33] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 22:42:33] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 22:42:33] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 22:45:37] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 22:45:37] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 22:45:37] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 22:45:37] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 22:45:37] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 22:45:37] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 22:45:48] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 22:45:48] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 22:45:48] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 22:45:48] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 22:45:48] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 22:45:48] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 22:46:32] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 22:46:32] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 22:46:32] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 22:46:32] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 22:46:32] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 22:46:32] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 22:51:28] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 22:51:28] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 22:51:28] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 22:51:28] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 22:51:28] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 22:51:28] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 

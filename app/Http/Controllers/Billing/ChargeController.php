@@ -32,7 +32,7 @@ class ChargeController extends Controller
     {
         $patients = Patient::orderBy('patient_last_name')->get();
         // allow any service type for manual charges
-        $services = HospitalService::orderBy('service_name')->get();
+        $services = HospitalService::where('service_type', '!=', 'medication')->orderBy('service_name')->get();
 
         return view('billing.charges.create', compact('patients','services'));
     }
@@ -46,7 +46,7 @@ public function store(Request $request)
         'patient_id'           => 'required|exists:patients,patient_id',
         'charges'              => 'required|array|min:1',
         'charges.*.service_id' => 'required|exists:hospital_services,service_id',
-        'charges.*.quantity'   => 'required|integer|min:1',
+        'charges.*.quantity'   => 'required|intFeger|min:1',
     ]);
 
     // 1) One Bill per day per patient
@@ -60,7 +60,10 @@ public function store(Request $request)
 
     // 2) Create each BillItem
     foreach ($data['charges'] as $row) {
-        $svc     = HospitalService::findOrFail($row['service_id']);
+        $svc = HospitalService::findOrFail($row['service_id']);
+        if ($svc->service_type === 'medication') {
+            return back()->with('error', 'Medications must be billed through the pharmacy module.');
+        }
         $qty     = $row['quantity'];
         $amount  = $svc->price * $qty;
 

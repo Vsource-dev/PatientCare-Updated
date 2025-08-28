@@ -25,21 +25,24 @@ use App\Models\AuditLog;
 
 class PatientBillingController extends Controller
 {
+
     public function __construct()
     {
-        $this->middleware(['auth']); 
+        $this->middleware(['auth']); // Webguard
     }
 
-    
     public function index(Request $request)
     {
-        // 0️⃣ current patient
+        // 1. Get Current Patient and Admission
+
+        // Find Logged Patient
         $patient = Auth::user()-> patient ?? abort(404,'No patient profile.');
 
-        // 1️⃣ admission dropdown + active admission
+        
         $admissions  = $patient->admissionDetail()
                                ->orderByDesc('admission_date')
                                ->get();
+
 
         $admissionId = $request->input('admission_id') 
             ?? $admissions->first()?->admission_id;

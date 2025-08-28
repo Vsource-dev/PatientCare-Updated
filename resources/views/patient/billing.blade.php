@@ -2,7 +2,6 @@
 @extends('layouts.patients')
 
 @section('content')
-<div class="card shadow-sm">
   <div class="card-body p-4">
 
     {{-- Heading & Admission selector --}}
@@ -32,7 +31,7 @@
         ['label'=>'Bed/Room Rate','value'=>$bedRate],
         ['label'=>'Doctor Fee','value'=>$doctorFee],
         ['label'=>'Pharmacy Charges','value'=>$pharmacyTotal],
-        ['label'=>'Deposits Paid','value'=>$paymentsMade],  {{-- NEW: show deposits --}}
+        ['label'=>'Deposits Paid','value'=>$paymentsMade],  
       ] as $tile)
         <div class="col-md-4">
           <div class="bg-light rounded p-3 h-100">
@@ -139,7 +138,6 @@
       </a>
     </div>
   </div>
-</div>
 
 
 

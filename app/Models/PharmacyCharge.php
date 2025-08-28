@@ -3,8 +3,6 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class PharmacyCharge extends Model
 {
@@ -21,4 +19,5 @@ class PharmacyCharge extends Model
 
     public function items()  { return $this->hasMany(PharmacyChargeItem::class,'charge_id'); }
     public function patient(){ return $this->belongsTo(Patient::class,'patient_id'); }
+
 }

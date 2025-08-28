@@ -7,7 +7,6 @@ use App\Models\Patient;
 use App\Models\HospitalService as Service;
 use App\Models\PharmacyCharge;
 use App\Models\PharmacyChargeItem;
-use App\Models\BillItem;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 

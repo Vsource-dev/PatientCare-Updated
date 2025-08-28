@@ -15,7 +15,6 @@ use App\Http\Controllers\Billing\DepositController;
 use App\Http\Controllers\DoctorController;
 use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\Admin\ResourceController;
-use App\Http\Controllers\SuppliesController;
 use App\Http\Controllers\Pharmacy\ChargeController as PharmacyChargeController;
 use App\Http\Controllers\Billing\ChargeController   as BillingChargeController;
 use App\Http\Controllers\OperatingRoomController;
@@ -29,7 +28,7 @@ use App\Http\Controllers\BillingDashboardController;
 use App\Http\Controllers\LabController;
 use App\Http\Controllers\HospitalServiceController;
 
-
+// PHARMACY MODULE ---------------------------------------------------------------------------------------
 Route::middleware(['auth'])
      ->prefix('pharmacy')->name('pharmacy.')
      ->group(function () {
@@ -49,6 +48,7 @@ Route::middleware(['auth'])
          Route::get('pharmacy/history', [PharmacyController::class, 'history'])->name('history');
      });
 
+// OR MODULE ----------------------------------------------------------------------------------------------
 Route::middleware(['auth','role:operating_room'])
      ->prefix('operating')
      ->name('operating.')
@@ -175,7 +175,7 @@ Route::get('disputes',
         Route::put('{service}',     [HospitalServiceController::class, 'update'])->name('update');
         Route::delete('{service}',  [HospitalServiceController::class, 'destroy'])->name('destroy');
     });
-     }); // FIXED: Added missing closing brace for patient route group
+     });
 
 Route::prefix('laboratory')->name('laboratory.')
      ->middleware('auth')
@@ -201,69 +201,23 @@ Route::prefix('laboratory')->name('laboratory.')
          Route::get('history',     [LabController::class, 'history'])->name('history');
          Route::get('requests/{assignment}', [LabController::class, 'showRequest'])->name('requests.show');
          Route::post('requests/{assignment}/complete',
-              [LabController::class, 'markCompleted'])->name('requests.complete');
+        [LabController::class, 'markCompleted'])->name('requests.complete');
 
-         // Now the generic CRUD for *services*
-         Route::get('{service}/edit',   [LabController::class, 'edit'])->name('edit');
-         Route::put('{service}',        [LabController::class, 'update'])->name('update');
-         Route::delete('{service}',     [LabController::class, 'destroy'])->name('destroy');
      });
 
-
-
-
-
-
-
-     Route::middleware('auth')
-     ->prefix('supplies')
-     ->name('supplies.')
-     ->group(function(){
-         Route::get('dashboard',      [SuppliesController::class,'dashboard'])
-              ->name('dashboard');
- Route::post('items', [SuppliesController::class, 'storeItem'])
-         ->name('items.store');
-
-    // UPDATE
-    Route::put('items/{service}', [SuppliesController::class, 'updateItem'])
-         ->name('items.update');
-
-    // DELETE
-    Route::delete('items/{service}', [SuppliesController::class, 'destroyItem'])
-         ->name('items.destroy');
-         Route::get('create',         [SuppliesController::class,'create'])
-              ->name('create');
-
-         Route::post('/',             [SuppliesController::class,'store'])
-              ->name('store');
-
-         Route::get('queue',          [SuppliesController::class,'queue'])
-              ->name('queue');
-
-         Route::get('{id}',           [SuppliesController::class,'show'])
-              ->name('show');
-
-         Route::post('{id}/complete', [SuppliesController::class,'markCompleted'])
-              ->name('complete');
-                Route::post('{id}/checkout', [SuppliesController::class,'checkout'])
-         ->name('checkout');
-         
-         Route::delete('items/{service}', [SuppliesController::class, 'destroyItem'])
-         ->name('items.destroy');
-             
-     });
-
-
+// DASHBOARD ROUTING ------------------------------------------------------------------------------
 Route::middleware('auth')->get('/dashboard', function () {
     $role = Auth::user()->role;
-
     return match ($role) {
         'admin'     => redirect()->route('admin.dashboard'),
         'admission' => redirect()->route('admission.dashboard'),
         'pharmacy'  => redirect()->route('pharmacy.dashboard'),
+        'laboratory' => redirect()->route('laboratory.dashboard'),
         default     => redirect()->route('home'),
     };
 });
+
+// HOME PAGE ---------------------------------------------------------------------------------------
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/login',   [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [LoginController::class,'login'])
@@ -277,6 +231,8 @@ Route::post('patient/login', [LoginController::class,'patientLogin'])
      ->name('patient.login.attempt');
 // routes/web.php
 
+
+// CHARGE TRACEBACK ----------------------------------------------------------------------------------
 Route::middleware('auth')
      ->prefix('patient/billing')
      ->name('patient.billing.')
@@ -287,7 +243,7 @@ Route::middleware('auth')
      });
 
 
-// Your existing panel routes (they still exist if you need them)
+// ADMISSION MODULE ----------------------------------------------------------------------------------
 Route::middleware(['auth'])
      ->prefix('admission')->name('admission.')
      ->group(function () {
@@ -301,12 +257,12 @@ Route::middleware(['auth'])
                     [PatientController::class,'getBedsByRoom'])
               ->name('rooms.beds');
          Route::get('dashboard',[AdmissionController::class,'dashboard'])->name('dashboard');
-         Route::resource('patients', PatientController::class)
+         Route::resource('patients', PatientController::class) // PatientController is used for CRUD of Admission
               ->only(['index','create','store','show']);
      });
 
 
-
+// ADMIN MODULE -------------------------------------------------------------------------------------
 Route::middleware(['auth'])
       ->prefix('admin')->name('admin.')
       ->group(function(){
@@ -335,7 +291,7 @@ Route::post('users/{user}/assign',
       });
               
 
-// DOCTOR MODULE   
+// DOCTOR MODULE -------------------------------------------------------------------------------------
 Route::prefix('doctor')
     ->name('doctor.')
     ->middleware('auth')
