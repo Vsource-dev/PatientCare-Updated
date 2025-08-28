@@ -67,13 +67,13 @@ public function store(Request $request)
         $qty     = $row['quantity'];
         $amount  = $svc->price * $qty;
 
-        BillItem::create([
-            'billing_id'   => $bill->billing_id,
-            'service_id'   => $svc->service_id,
-            'quantity'     => $qty,
-            'amount'       => $amount,
-            'billing_date' => $bill->billing_date, // satisfies non-null constraint
-        ]);
+        // BillItem::create([
+        //     'billing_id'   => $bill->billing_id,
+        //     'service_id'   => $svc->service_id,
+        //     'quantity'     => $qty,
+        //     'amount'       => $amount,
+        //     'billing_date' => $bill->billing_date, // satisfies non-null constraint
+        // ]);
     }
 
     return redirect()

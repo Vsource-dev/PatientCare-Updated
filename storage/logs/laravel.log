@@ -10801,3 +10801,37 @@
 [2025-08-28 22:51:28] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
 [2025-08-28 22:51:28] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
 [2025-08-28 22:51:28] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 23:03:26] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 23:03:26] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 23:03:26] local.DEBUG: Pharmacy Total: {"rxTotal":"2204.00"} 
+[2025-08-28 23:03:26] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 23:03:26] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 23:03:26] local.DEBUG: Grand Total: {"grandTotal":4204.0,"balance":4204.0} 
+[2025-08-28 23:03:36] local.DEBUG: [DoctorDashboard] user_id 49 doctorId 33  
+[2025-08-28 23:03:36] local.DEBUG: [DoctorDashboard] patientsQuery count before search: 3  
+[2025-08-28 23:03:36] local.DEBUG: [DoctorDashboard] paginated total 3 current page count 3  
+[2025-08-28 23:03:36] local.DEBUG: [DoctorDashboard] recentAdmissions count: 0  
+[2025-08-28 23:03:46] local.DEBUG: [OrderEntry] incoming request {"user_id":49,"patient":33,"type":"medication","payload":{"_token":"iyKHT6eOMxBZlYuNYrEGJPA8GQdqsryZkcYZMyZb","type":"medication","medications":[{"medication_id":"43","quantity":"1","duration":"1","duration_unit":"days","instructions":null}]}} 
+[2025-08-28 23:03:46] local.DEBUG: [OrderEntry] MED + PHARM OK {"bill_id":54,"rx":"RX20250828230346XVN","presc_id":null} 
+[2025-08-28 23:04:03] local.DEBUG: [OrderEntry] incoming request {"user_id":49,"patient":33,"type":"medication","payload":{"_token":"iyKHT6eOMxBZlYuNYrEGJPA8GQdqsryZkcYZMyZb","type":"medication","medications":[{"medication_id":"43","quantity":"1","duration":"1","duration_unit":"days","instructions":null}]}} 
+[2025-08-28 23:04:04] local.DEBUG: [OrderEntry] MED + PHARM OK {"bill_id":54,"rx":"RX20250828230404HGS","presc_id":null} 
+[2025-08-28 23:05:58] local.DEBUG: [OrderEntry] incoming request {"user_id":49,"patient":33,"type":"medication","payload":{"_token":"iyKHT6eOMxBZlYuNYrEGJPA8GQdqsryZkcYZMyZb","type":"medication","medications":[{"medication_id":"44","quantity":"1","duration":"1","duration_unit":"days","instructions":null}]}} 
+[2025-08-28 23:05:58] local.DEBUG: [OrderEntry] MED + PHARM OK {"bill_id":54,"rx":"RX20250828230558R3W","presc_id":null} 
+[2025-08-28 23:08:17] local.DEBUG: [DoctorDashboard] user_id 49 doctorId 33  
+[2025-08-28 23:08:17] local.DEBUG: [DoctorDashboard] patientsQuery count before search: 3  
+[2025-08-28 23:08:17] local.DEBUG: [DoctorDashboard] paginated total 3 current page count 3  
+[2025-08-28 23:08:17] local.DEBUG: [DoctorDashboard] recentAdmissions count: 0  
+[2025-08-28 23:08:25] local.DEBUG: [DoctorDashboard] user_id 49 doctorId 33  
+[2025-08-28 23:08:25] local.DEBUG: [DoctorDashboard] patientsQuery count before search: 3  
+[2025-08-28 23:08:25] local.DEBUG: [DoctorDashboard] paginated total 3 current page count 3  
+[2025-08-28 23:08:25] local.DEBUG: [DoctorDashboard] recentAdmissions count: 0  
+[2025-08-28 23:08:31] local.DEBUG: [OrderEntry] incoming request {"user_id":49,"patient":33,"type":"medication","payload":{"_token":"j7PN570OpkSIlBCmSmiU0Agsvnkc19GNBvGw5qAX","type":"medication","medications":[{"medication_id":"44","quantity":"1","duration":"1","duration_unit":"days","instructions":null}]}} 
+[2025-08-28 23:08:31] local.DEBUG: [OrderEntry] MED + PHARM OK {"bill_id":54,"rx":"RX20250828230831RBV","presc_id":null} 
+[2025-08-28 23:08:44] local.DEBUG: [OrderEntry] incoming request {"user_id":49,"patient":33,"type":"medication","payload":{"_token":"j7PN570OpkSIlBCmSmiU0Agsvnkc19GNBvGw5qAX","type":"medication","medications":[{"medication_id":"44","quantity":"1","duration":"1","duration_unit":"days","instructions":null}]}} 
+[2025-08-28 23:08:44] local.DEBUG: [OrderEntry] MED + PHARM OK {"bill_id":54,"rx":"RX20250828230844S9M","presc_id":null} 
+[2025-08-28 23:09:24] local.DEBUG: Fetched Data: {"patient_id":33,"admission_id":69,"admissions":{"Illuminate\\Database\\Eloquent\\Collection":[{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z"}]},"admission":{"App\\Models\\AdmissionDetail":{"admission_id":69,"patient_id":33,"admission_date":"2025-08-22T15:07:47.000000Z","admission_type":"Normal","admission_source":"ER","department_id":27,"doctor_id":33,"room_number":"101","bed_number":"101-B1","admission_notes":"s","created_at":"2025-08-22T15:07:47.000000Z","updated_at":"2025-08-22T15:07:47.000000Z","doctor":{"doctor_id":33,"user_id":null,"doctor_name":"same","doctor_specialization":null,"rate":"2000.00","department_id":27,"created_at":"2025-08-22T14:16:39.000000Z","updated_at":"2025-08-22T14:16:39.000000Z"}}}} 
+[2025-08-28 23:09:24] local.DEBUG: Billing Total: {"billTotal":0} 
+[2025-08-28 23:09:24] local.DEBUG: Pharmacy Total: {"rxTotal":"2219.00"} 
+[2025-08-28 23:09:24] local.DEBUG: Bed Rate: {"bedRate":"0.00"} 
+[2025-08-28 23:09:24] local.DEBUG: Doctor Fee: {"doctorFee":"2000.00"} 
+[2025-08-28 23:09:24] local.DEBUG: Grand Total: {"grandTotal":4219.0,"balance":4219.0} 

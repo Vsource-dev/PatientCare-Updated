@@ -199,14 +199,6 @@ class DoctorController extends Controller
                         'status'         => 'pending', // Initial status
                     ]);
 
-                    // Add bill item
-                    $bill->items()->create([
-                        'service_id'      => $svc->service_id, // Medication ID
-                        'amount'          => $line, // Line total
-                        'billing_date'    => now(), // Current date
-                        'discount_amount' => 0, // No discount
-                        'status'          => 'pending', // Initial status
-                    ]);
 
                     // Add pharmacy charge item
                     PharmacyChargeItem::create([
