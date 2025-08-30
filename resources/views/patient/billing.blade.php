@@ -67,8 +67,8 @@
     </form>
 
     {{-- Table --}}
-    <div class="table-responsive">
-      <table class="table table-sm align-middle">
+    <div class="table-responsive ">
+      <table class="table table-sm align-middle table-hover">
         <thead class="table-light">
           <tr>
             <th>Date</th><th>Ref no.</th><th>Description</th>

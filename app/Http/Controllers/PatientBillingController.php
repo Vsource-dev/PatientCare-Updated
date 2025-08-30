@@ -76,8 +76,15 @@ class PatientBillingController extends Controller
             ->where('pci.status', 'dispensed') // sum only dispensed items
             ->sum('pci.total');
 
-        // Debugging: Log pharmacy total
-        \Log::debug("Pharmacy Total:", ['rxTotal' => $rxTotal]);
+        // Pending pharmacy total (for display only)
+        $rxPendingTotal = DB::table('pharmacy_charge_items as pci')
+            ->join('pharmacy_charges as pc', 'pc.id', '=', 'pci.charge_id')
+            ->where('pc.patient_id', $patient->patient_id)
+            ->where('pci.status', 'pending')
+            ->sum('pci.total');
+
+        // Debugging: Log pharmacy totals
+        \Log::debug("Pharmacy Totals:", ['rxTotal' => $rxTotal, 'rxPendingTotal' => $rxPendingTotal]);
 
         // Current occupied-bed (falls back to room rate if bed rate is 0)
         $bedRate = DB::table('beds as b')
@@ -179,12 +186,12 @@ $assignmentRows = ServiceAssignment::with(['service.department','doctor'])
         ];
     });
 
-/* ---------- c) Pharmacy rows (no separate audit table yet) ---------- */
+/* ---------- c) Pharmacy rows (include pending + dispensed so pending shows up as 'pending') ---------- */
 $rxRows = PharmacyChargeItem::with(['service', 'charge'])
     ->whereHas('charge', function($q) use ($patient) {
         $q->where('patient_id', $patient->patient_id);
     })
-    ->where('status', 'dispensed')
+    ->whereIn('status', ['dispensed','pending']) // include pending so they appear in the list
     ->get()
     ->map(function ($it) {
         return (object)[
@@ -194,13 +201,14 @@ $rxRows = PharmacyChargeItem::with(['service', 'charge'])
             'description'     => $it->service?->service_name ?? '—',
             'provider'        => 'Pharmacy',
             'amount'          => $it->total,
-            'status'          => 'dispensed',
+            'status'          => $it->status, // preserve real status ('pending' or 'dispensed')
+            'is_rx'           => true,
             'timeline'        => collect([
                 (object)[
                     'stamp' => $it->updated_at,
                     'actor' => 'Pharmacy',
                     'dept'  => 'Pharmacy',
-                    'text'  => 'Dispensed',
+                    'text'  => $it->status === 'dispensed' ? 'Dispensed' : 'Pending',
                 ],
             ]),
         ];
@@ -267,7 +275,8 @@ return (object)[
             'totals'        => $totals,
             'bedRate'       => $bedRate,
             'doctorFee'     => $doctorFee,
-            'pharmacyTotal' => $rxTotal,  
+            'pharmacyTotal' => $rxTotal,
+            'pharmacyPendingTotal' => $rxPendingTotal,
             'paymentsMade'  => $paymentsMade,
         ]);
     }
@@ -330,10 +339,6 @@ return (object)[
         $filename = 'statement_adm'.$admissionId.'_'.now()->format('Ymd').'.pdf';
         return $pdf->download($filename);
     }
-
-
-
-
 
 
     public function chargeTrace(string $key)

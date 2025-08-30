@@ -9,7 +9,7 @@ class ServiceAssignment extends Model
 {
     protected $table        = 'service_assignments';
     protected $primaryKey   = 'assignment_id';
-    public    $timestamps   = false;            // you’re using your own datetime
+    public    $timestamps   = true;            // you’re using your own datetime
     protected $guarded      = [];               // or switch to $fillable if you prefer
 
     // Tell Eloquent to cast your `datetime` column to a Carbon instance

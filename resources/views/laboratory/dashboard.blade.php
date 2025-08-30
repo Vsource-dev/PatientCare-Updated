@@ -14,7 +14,7 @@
                 <div class="card-body d-flex align-items-center">
                     <i class="fa-solid fa-vials fa-2x text-primary me-4"></i>
                     <div>
-                        <div class="text-muted small">Services Completed</div>
+                        <div class="text-muted small">Total Services Completed</div>
                         <h4 class="fw-semibold mb-0">{{ $completedCount }}</h4>
                     </div>
                 </div>

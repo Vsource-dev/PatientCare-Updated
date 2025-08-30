@@ -19,12 +19,6 @@ class HospitalService extends Model
         'service_type',
     ];
 
-    // Track Medicine Inventory and All
-    public function stockMovements()
-    {
-        return $this->hasMany(MedicineStockMovement::class,'service_id','service_id');
-    }
-
     public function department()
 {
     return $this->belongsTo(\App\Models\Department::class, 'department_id', 'department_id');

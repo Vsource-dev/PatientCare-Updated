@@ -3,179 +3,124 @@
 @extends('layouts.laboratory')
 
 @section('content')
+
+<div class="container-fluid">
+
     {{-- Header --}}
-    <div>
-        <h5 class="hdng">Laboratory Services Management</h5>
-        <p class="lead">Welcome to Laboratory! Manage Lab Charges and Service Completion</p>
+    <div class="mb-4">
+        <h3 class="fw-bold hdng mb-1">🧪 Laboratory Queue</h3>
+        <p class="text-muted">Manage lab requests and mark services as completed</p>
     </div>
 
-    {{-- Filters --}}
-    <div class="card mb-3">
-        <div class="card-body py-4">
-            <div class="row">
-                <div class="col col-md-3 col-sm-6">
-                    <select class="form-select">
-                        <option value="">All</option>
-                        <option value="pending">Pending</option>
-                        <option value="completed">Completed</option>
-                    </select>
-                </div>
-                <div class="col col-md-3 col-sm-6">
-                    <select class="form-select">
-                        <option value="">All</option>
-                        <option value="pending">Pending</option>
-                        <option value="completed">Completed</option>
-                    </select>
-                </div>
-                <div class="col col-md-6 col-sm-12">
-                    <div class="input-group w-100">
-                        <input type="text" class="form-control" placeholder="Search by Name or MRN">
-                        <span class="input-group-text"><i class="fas fa-search"></i></span>
+    {{-- Metrics --}}
+    <div class="row g-3 mb-4">
+        <div class="col-lg-3 col-md-6">
+            <div class="card shadow-sm border-0 rounded-3">
+                <div class="card-body d-flex align-items-center">
+                    <div class="flex-grow-1">
+                        <h6 class="text-muted mb-1">Total Pending</h6>
+                        <h4 class="fw-bold mb-0">
+                            {{ $labRequests->where('service_status', 'pending')->count() }}
+                        </h4>
+                    </div>
+                    <div class="ms-3 text-warning">
+                        <i class="fas fa-clock fa-2x"></i>
                     </div>
                 </div>
             </div>
         </div>
+        {{-- Add more metrics if needed --}}
     </div>
 
-    {{-- Table --}}
-    <div class="card" style="height: 70vh;">
-        <div class="card-body">
-            <div class="d-flex justify-content-between align-items-center mb-3">
-                <h5 class="mb-0 fw-semibold">
-                    <i class="fa-solid fa-users-line me-2 text-secondary"></i>Patient Queue
-                </h5>
-                <a href="{{ route('laboratory.queue') }}" class="btn btn-primary">
-                    <i class="fa-solid fa-clock-rotate-left me-2"></i>Refresh
-                </a>
-            </div>
-
-            <div class="table-responsive rounded shadow-sm p-1">
-                <table class="table align-middle table-hover mb-0">
-                    <thead class="table-light">
-                        <tr>
-                            <th>Date Assigned</th>
-                            <th>Patient</th>
-                            <th>Description</th>
-                            <th>Assigned By</th>
-                            <th>Status</th>
-                            <th class="text-end">Amount</th>
-                            <th class="text-center">Actions</th>
-                        </tr>
-                    </thead>
-                  <tbody>
-  @forelse($labRequests as $request)
-    <tr>
-    <td>
-  {{ $request->created_at->format('M j, Y g:i A') }}
-</td>
-
-
-      {{-- Patient --}}
-      <td>
-        <div class="fw-semibold">
-          {{ $request->patient->patient_first_name }}
-          {{ $request->patient->patient_last_name }}
+    {{-- Queue Table --}}
+    <div class="card shadow-sm border-0 rounded-3">
+        <div class="card-body p-0">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>Date Assigned</th>
+                        <th>Patient</th>
+                        <th>Description</th>
+                        <th>Assigned By</th>
+                        <th>Status</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                @forelse($labRequests as $request)
+                    <tr>
+                        <td>
+                            {{ $request->created_at ? $request->created_at->format('M j, Y g:i A') : '-' }}
+                        </td>
+                        <td>
+                            <div class="fw-semibold">
+                                {{ $request->patient->patient_first_name }} {{ $request->patient->patient_last_name }}
+                            </div>
+                            <small class="text-muted">
+                                ID: {{ $request->patient->patient_id }}
+                            </small>
+                        </td>
+                        <td>
+                            <span class="badge rounded-pill bg-light text-dark border me-1 mb-1">
+                                {{ $request->service->service_name ?? 'N/A' }}
+                            </span>
+                        </td>
+                        <td>
+                            {{ $request->doctor->doctor_name ?? 'N/A' }}
+                        </td>
+                        <td>
+                            <span class="badge {{ $request->service_status === 'pending' ? 'bg-warning text-dark' : 'bg-success text-white' }}">
+                                {{ ucfirst($request->service_status) }}
+                            </span>
+                          </td>
+                        <td class="text-center">
+                            @if($request->service_status === 'pending')
+                                <form action="{{ route('laboratory.details.complete', $request) }}" method="POST" class="d-inline">
+                                    @csrf
+                                    <button type="submit" class="btn btn-sm btn-success confirm-btn">
+                                        <i class="fa fa-check me-1"></i> Mark as Completed
+                                    </button>
+                                </form>
+                            @else
+                                <span class="text-muted">Completed</span>
+                            @endif
+                        </td>
+                    </tr>
+                @empty
+                    <tr>
+                        <td colspan="7" class="text-center text-muted py-4">
+                            <i class="fas fa-info-circle me-1"></i> No lab requests in queue.
+                        </td>
+                    </tr>
+                @endforelse
+                </tbody>
+            </table>
         </div>
-        <small class="text-muted">
-          ID: {{ $request->patient->patient_id }}
-        </small>
-      </td>
+      </div>
 
-      {{-- Description (from the service) --}}
-      <td>
-        {{ $request->service->description
-           ?? $request->service->service_name }}
-      </td>
-
-      {{-- Assigned By (doctor_name) --}}
-      <td>
-        {{ $request->doctor->doctor_name ?? 'N/A' }}
-      </td>
-
-      {{-- Status --}}
-      <td>
-        <span
-          class="badge {{ $request->service_status === 'pending'
-                     ? 'bg-warning text-dark'
-                     : 'bg-success text-white' }}">
-          {{ ucfirst($request->service_status) }}
-        </span>
-      </td>
-
-      {{-- Amount --}}
-      <td class="text-end">
-        ₱{{ number_format($request->amount, 2) }}
-      </td>
-
-      {{-- Actions --}}
-   <td class="text-center">
-  @if($request->service_status === 'pending')
-    <a href="{{ route('laboratory.details', $request) }}"
-       class="btn btn-sm btn-outline-secondary">
-      <i class="fa-solid fa-file-circle-question me-1"></i>
-      Details
-    </a>
-  @else
-    <span class="text-muted">Completed</span>
-  @endif
-</td>
-
-    </tr>
-  @empty
-    <tr>
-      <td colspan="7" class="text-center text-muted py-3">
-        <i class="fa-solid fa-puzzle-piece me-2"></i>No Data Available
-      </td>
-    </tr>
-  @endforelse
-</tbody>
-
-                </table>
-            </div>
-
-        </div>
-    </div>
-
+</div>
 @endsection
 
 @push('scripts')
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     const buttons = document.querySelectorAll('.confirm-btn');
 
     buttons.forEach(btn => {
-        btn.addEventListener('click', (e) => {
+        btn.addEventListener('click', function(e) {
             e.preventDefault();
-
-            const row = btn.closest('tr');
-
+            const form = btn.closest('form');
             Swal.fire({
                 title: "Are you sure?",
-                text: "You won't be able to revert this!",
+                text: "This will mark the lab request as completed.",
                 icon: "warning",
                 showCancelButton: true,
                 confirmButtonColor: "#00529A",
                 cancelButtonColor: "#d33",
-                confirmButtonText: "Confirm"
+                confirmButtonText: "Yes, complete it!"
             }).then((result) => {
                 if (result.isConfirmed) {
-                    // Update status badge
-                    const badge = row.querySelector('.badge');
-                    badge.classList.remove('bg-warning', 'text-dark');
-                    badge.classList.add('bg-success', 'text-white');
-                    badge.textContent = 'Completed';
-
-                    // Remove button
-                    btn.remove();
-
-                    Swal.fire({
-                        title: "Confirmed",
-                        text: "Request marked as completed.",
-                        icon: "success"
-                    });
-
-                    // Optionally: AJAX call to update status in DB here
+                    form.submit();
                 }
             });
         });

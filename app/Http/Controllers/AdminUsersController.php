@@ -23,7 +23,6 @@ class AdminUsersController extends Controller
     public function create()
     {
         $roles = [
-            'admin',
             'admission',
             'pharmacy',
             'doctor',
@@ -44,7 +43,7 @@ class AdminUsersController extends Controller
         $data = $request->validate([
             'username'      => 'required|string|max:100|unique:users,username',
             'email'         => 'required|email|unique:users,email',
-            'role'          => 'required|in:admin,patient,doctor,admission,billing,hospital_services,pharmacy',
+            'role'          => 'required|in:admin,patient,doctor,admission,billing,hospital_services,pharmacy,laboratory',
             'password'      => 'required|string|min:8|confirmed',
             'rate'          => 'nullable|numeric|min:0',
             'department_id' => 'nullable|exists:departments,department_id',
@@ -78,7 +77,7 @@ class AdminUsersController extends Controller
 
     public function edit(User $user)
     {
-        $roles = ['admin', 'patient', 'doctor', 'admission', 'billing', 'pharmacy'];
+        $roles = ['admin', 'patient', 'doctor', 'admission', 'billing', 'pharmacy', 'laboratory'];
         return view('admin.users.edit', compact('user', 'roles'));
     }
 

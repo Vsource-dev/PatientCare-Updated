@@ -265,7 +265,8 @@ class DoctorController extends Controller
                     'patient_id'     => $patient->patient_id, // Link to patient
                     'doctor_id'      => $doctorId, // Link to doctor
                     'service_id'     => $service->service_id, // Service ID
-                    'datetime'       => $data['collection_date'], // Collection date
+                    'amount'         => $service->price, // <-- Add this line!
+                    'datetime'       => $data['collection_date'], // or scheduled_date
                     'service_status' => 'pending', // Initial status
                 ]);
 

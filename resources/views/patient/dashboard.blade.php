@@ -6,7 +6,7 @@
 
   {{-- Greeting --}}
   <div class="mb-4">
-    <h1 class="h4 fw-bold">Welcome back, {{ $user->username }} 👋</h1>
+    <h1 class="h4 fw-bold">Welcome back, {{ $patient->patient_first_name }} 👋</h1>
     <p class="text-muted mb-0">Your health hub — quick access to records, bills & schedules.</p>
   </div>
 

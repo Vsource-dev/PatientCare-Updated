@@ -26,6 +26,7 @@ class PatientController extends Controller
 
         $user = Auth::user(); //Fetch rurrent logined user
         $patientId = $user->patient_id; // Fetch patient ID
+        $patient = $user->patient ?? \App\Models\Patient::find($patientId);
 
         // 1️⃣ Latest admission (with bed / room / doctor)
         $admission = AdmissionDetail::with(['room', 'bed', 'doctor'])
@@ -75,6 +76,7 @@ class PatientController extends Controller
         return view('patient.dashboard', [
             'user' => $user,
             'admission' => $admission,
+            'patient' => $patient,
             'baseDue' => $baseDue,
             'pharmacyTotal' => $pharmacyTotal,
             'servicesSubtotal' => $servicesSubtotal,
@@ -126,6 +128,7 @@ class PatientController extends Controller
   public function store(Request $request)
 {
     $data = $request->validate([
+        
         'patient_first_name' => 'required|string|max:100',
         'patient_last_name' => 'required|string|max:100',
         'patient_birthday' => 'nullable|date',

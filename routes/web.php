@@ -45,7 +45,7 @@ Route::middleware(['auth'])
          Route::get('queue', [PharmacyController::class, 'queue'])->name('queue');
          Route::get('charges/{charge}/select', [PharmacyController::class, 'selectItems'])->name('charges.select');
          Route::post('charges/{charge}/dispense', [PharmacyController::class, 'partialDispense'])->name('charges.partial-dispense');
-         Route::get('pharmacy/history', [PharmacyController::class, 'history'])->name('history');
+         Route::get('history', [PharmacyController::class, 'history'])->name('history');
      });
 
 // OR MODULE ----------------------------------------------------------------------------------------------
@@ -177,15 +177,15 @@ Route::get('disputes',
     });
      });
 
+
+// LABORATORY MODULE -----------------------------------
+
 Route::prefix('laboratory')->name('laboratory.')
      ->middleware('auth')
      ->group(function () {
          Route::get('dashboard',   [LabController::class, 'dashboard'])->name('dashboard');
          Route::get('queue',       [LabController::class, 'queue'])->name('queue');
-
-      // show the “Add Lab Charge” form
-         Route::get('create', [LabController::class, 'create'])
-              ->name('create');
+         Route::get('history',     [LabController::class, 'history'])->name('history');
 
          // handle the form POST
          Route::post('store', [LabController::class, 'store'])
@@ -197,11 +197,7 @@ Route::prefix('laboratory')->name('laboratory.')
               [LabController::class, 'markCompleted'])
               ->name('details.complete');
 
-         // History & single-request view (alternate show)
-         Route::get('history',     [LabController::class, 'history'])->name('history');
-         Route::get('requests/{assignment}', [LabController::class, 'showRequest'])->name('requests.show');
-         Route::post('requests/{assignment}/complete',
-        [LabController::class, 'markCompleted'])->name('requests.complete');
+      
 
      });
 
@@ -304,3 +300,5 @@ Route::prefix('doctor')
         Route::get('/orders', [DoctorController::class,'ordersIndex'])->name('orders.index');
         // Removed duplicate: Route::get('/patient-orders/{patient}', ...)
     });
+
+Route::get('/laboratory/history/{assignment}', [App\Http\Controllers\LabController::class, 'show'])->name('laboratory.history.show');
